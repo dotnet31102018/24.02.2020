@@ -8,7 +8,8 @@ using System.Threading.Tasks;
 
 namespace Rabbit
 {
-
+    // Requires EasyNetQ nugget!!!!
+    // Requires NewtonSoft (should be already downloaded inside EasyNetQ)
     class Program
     {
         static void SendMessage()
